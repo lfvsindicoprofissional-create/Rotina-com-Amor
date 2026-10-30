@@ -1,0 +1,6 @@
+{
+  "name": "Rotina com Carinho",
+  "description": "Quadro visual semanal com cartões removíveis para organizar a rotina das crianças e suas famílias de forma prática, visual e personalizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
