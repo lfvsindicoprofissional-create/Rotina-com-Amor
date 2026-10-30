@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotina com Carinho</title>
+    <script>
+      // Redirecionamento SPA para GitHub Pages quando acessado via subpasta
+      (function() {
+        var pathSegments = window.location.pathname.split('/');
+        // Redireciona mantendo o hash ou caminho para a raiz do app
+        var repoName = pathSegments[1] ? '/' + pathSegments[1] : '';
+        window.location.replace(window.location.origin + repoName + '/');
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Carregando Rotina com Carinho...</p>
+  </body>
+</html>

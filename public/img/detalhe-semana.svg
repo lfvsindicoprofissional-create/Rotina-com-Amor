@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" rx="28" fill="#F5EDE3" />
+  <rect x="70" y="70" width="660" height="460" rx="24" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="4" />
+
+  <rect x="110" y="110" width="170" height="46" rx="12" fill="#9CAF88" />
+  <text x="195" y="139" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Manhã</text>
+
+  <rect x="315" y="110" width="170" height="46" rx="12" fill="#F6DCDD" />
+  <text x="400" y="139" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Tarde</text>
+
+  <rect x="520" y="110" width="170" height="46" rx="12" fill="#F5EDE3" stroke="#E6D8C6" stroke-width="2" />
+  <text x="605" y="139" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Noite</text>
+
+  <!-- Slots de encaixe -->
+  <rect x="110" y="182" width="170" height="140" rx="18" fill="#FFFDFB" stroke="#9CAF88" stroke-width="2.5" />
+  <text x="195" y="258" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Tomar café</text>
+
+  <rect x="315" y="182" width="170" height="140" rx="18" fill="#FFFDFB" stroke="#E8B4B8" stroke-width="2.5" />
+  <text x="400" y="258" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Ir à escola</text>
+
+  <rect x="520" y="182" width="170" height="140" rx="18" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+  <text x="605" y="258" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Descansar</text>
+
+  <rect x="110" y="346" width="580" height="136" rx="18" fill="#F5EDE3" stroke="#9CAF88" stroke-width="2" stroke-dasharray="8 6" />
+  <text x="400" y="422" text-anchor="middle" fill="#5E7250" font-family="Georgia, serif" font-size="22" font-weight="600">Troque e reorganize os cartões conforme a semana</text>
+</svg>

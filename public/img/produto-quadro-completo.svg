@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" fill="none">
+  <rect width="1600" height="900" rx="36" fill="#FFFDFB" />
+  <rect x="32" y="32" width="1536" height="836" rx="28" fill="#F5EDE3" stroke="#E6D8C6" stroke-width="4" />
+
+  <!-- Moldura principal do quadro semanal completo (7 dias) -->
+  <rect x="88" y="76" width="1424" height="748" rx="28" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="5" />
+
+  <!-- Cabeçalho do quadro -->
+  <rect x="136" y="114" width="1328" height="72" rx="20" fill="#F6DCDD" />
+  <text x="800" y="159" text-anchor="middle" fill="#3D3535" font-family="Georgia, serif" font-size="30" font-weight="700">Quadro Visual Semanal — Rotina com Carinho</text>
+
+  <!-- 7 Colunas da Semana -->
+  <!-- Dom -->
+  <g transform="translate(136, 214)">
+    <rect width="172" height="48" rx="12" fill="#F5EDE3" stroke="#E6D8C6" stroke-width="2" />
+    <text x="86" y="31" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Domingo</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F6DCDD" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Acordar</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F5EDE3" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Tomar café</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#9CAF88" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F5EDE3" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Brincar</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Seg -->
+  <g transform="translate(328, 214)">
+    <rect width="172" height="48" rx="12" fill="#9CAF88" />
+    <text x="86" y="31" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Segunda</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#9CAF88" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F5EDE3" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Acordar</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F6DCDD" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Ir à escola</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F5EDE3" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Atendimentos</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Ter -->
+  <g transform="translate(520, 214)">
+    <rect width="172" height="48" rx="12" fill="#9CAF88" />
+    <text x="86" y="31" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Terça</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F6DCDD" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Escovar dentes</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F5EDE3" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Ir à escola</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E8B4B8" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F6DCDD" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Brincar</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Qua -->
+  <g transform="translate(712, 214)">
+    <rect width="172" height="48" rx="12" fill="#9CAF88" />
+    <text x="86" y="31" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Quarta</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F5EDE3" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Tomar café</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F6DCDD" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Ir à escola</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#9CAF88" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F5EDE3" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Descansar</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Qui -->
+  <g transform="translate(904, 214)">
+    <rect width="172" height="48" rx="12" fill="#9CAF88" />
+    <text x="86" y="31" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Quinta</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F6DCDD" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Acordar</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F5EDE3" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Ir à escola</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F6DCDD" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Atendimentos</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Sex -->
+  <g transform="translate(1096, 214)">
+    <rect width="172" height="48" rx="12" fill="#9CAF88" />
+    <text x="86" y="31" text-anchor="middle" fill="#FFFDFB" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Sexta</text>
+    <rect y="66" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="112" r="20" fill="#F5EDE3" />
+    <text x="86" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Escovar dentes</text>
+
+    <rect y="202" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="86" cy="248" r="20" fill="#F6DCDD" />
+    <text x="86" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Ir à escola</text>
+
+    <rect y="338" width="172" height="120" rx="16" fill="#FFFDFB" stroke="#E8B4B8" stroke-width="2.5" />
+    <circle cx="86" cy="384" r="20" fill="#F5EDE3" />
+    <text x="86" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Brincar</text>
+
+    <rect y="474" width="172" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="86" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+
+  <!-- Sáb -->
+  <g transform="translate(1288, 214)">
+    <rect width="176" height="48" rx="12" fill="#F5EDE3" stroke="#E6D8C6" stroke-width="2" />
+    <text x="88" y="31" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Sábado</text>
+    <rect y="66" width="176" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="88" cy="112" r="20" fill="#F6DCDD" />
+    <text x="88" y="164" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Acordar</text>
+
+    <rect y="202" width="176" height="120" rx="16" fill="#FFFDFB" stroke="#9CAF88" stroke-width="2.5" />
+    <circle cx="88" cy="248" r="20" fill="#F5EDE3" />
+    <text x="88" y="300" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Brincar</text>
+
+    <rect y="338" width="176" height="120" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <circle cx="88" cy="384" r="20" fill="#F6DCDD" />
+    <text x="88" y="436" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Descansar</text>
+
+    <rect y="474" width="176" height="100" rx="16" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="2.5" />
+    <text x="88" y="530" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Dormir</text>
+  </g>
+</svg>

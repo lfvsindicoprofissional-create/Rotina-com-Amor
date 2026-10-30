@@ -1,0 +1,351 @@
+@import "tailwindcss";
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/nunito";
+
+:root {
+  /* Cores base — fundo geral em rosa claro com contraste WCAG AA */
+  --cor-rosa-claro: #FFF5F6;      /* fundo geral da página e seções em rosa claro */
+  --cor-rosa-suave: #FBE6E8;      /* seções alternadas e destaques em rosa suave */
+  --cor-rosa: #E8B4B8;            /* elementos decorativos */
+  --cor-rosa-escuro: #8E3B46;     /* botão primário (contraste >= 5.6:1 com texto claro) */
+  --cor-rosa-escuro-hover: #762E38;
+  --cor-bege: #FAF0F2;            /* fundo alternado em tom rosa claro sutil */
+  --cor-bege-escuro: #EED7DA;     /* bordas suaves em tom rosado */
+  --cor-branco: #FFF5F6;          /* fundo principal em rosa claro */
+  --cor-salvia: #9CAF88;          /* detalhes, ícones decorativos */
+  --cor-salvia-escuro: #445638;   /* textos/ícones em sálvia com contraste AA >= 6.8:1 */
+  --cor-texto: #3D3535;           /* texto principal (contraste >= 11:1) */
+  --cor-texto-suave: #594D4D;     /* texto secundário (contraste >= 6.2:1) */
+  --cor-whatsapp: #1B7A43;        /* botão WhatsApp (contraste >= 5.3:1 com branco) */
+  --cor-whatsapp-hover: #146335;
+
+  /* Tipografia */
+  --fonte-titulo: "Fraunces Variable", "Fraunces", Georgia, serif;
+  --fonte-texto: "Nunito Variable", "Nunito", system-ui, -apple-system, sans-serif;
+  --fs-h1: clamp(2rem, 1.4rem + 2.8vw, 3.15rem);
+  --fs-h2: clamp(1.6rem, 1.2rem + 1.8vw, 2.35rem);
+  --fs-h3: 1.25rem;
+  --fs-base: 1.0625rem;  /* 17px, leitura confortável */
+  --lh-texto: 1.65;
+
+  /* Forma e espaço */
+  --raio-sm: 12px;
+  --raio-md: 20px;
+  --raio-lg: 32px;
+  --raio-pill: 999px;
+  --sombra: 0 6px 24px rgb(61 53 53 / 0.08);
+  --espaco-secao: clamp(4rem, 3rem + 5vw, 7rem);
+  --largura-max: 1160px;
+  --gutter: 16px;
+  --altura-header: 76px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  background-color: var(--cor-rosa-claro);
+  color: var(--cor-texto);
+  font-family: var(--fonte-texto);
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--cor-rosa-claro);
+  color: var(--cor-texto);
+  font-family: var(--fonte-texto);
+  font-size: var(--fs-base);
+  line-height: var(--lh-texto);
+  overflow-x: hidden;
+}
+
+/* Reserva espaço no mobile para o botão flutuante não cobrir o conteúdo */
+@media (max-width: 899px) {
+  body {
+    padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-texto);
+  line-height: 1.2;
+  margin-top: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Compensação do cabeçalho fixo ao navegar por âncoras */
+section[id] {
+  scroll-margin-top: calc(var(--altura-header) + 18px);
+}
+
+/* Foco visível acessível por teclado */
+:focus-visible {
+  outline: 3px solid var(--cor-rosa-escuro);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Utilitários estruturais */
+.container-site {
+  width: 100%;
+  max-width: var(--largura-max);
+  margin-inline: auto;
+  padding-inline: max(var(--gutter), env(safe-area-inset-left, 16px));
+}
+
+@media (min-width: 640px) {
+  .container-site {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-site {
+    padding-inline: 32px;
+  }
+}
+
+.secao-padrao {
+  padding-block: var(--espaco-secao);
+}
+
+.secao-branca {
+  background-color: var(--cor-branco);
+}
+
+.secao-bege {
+  background-color: var(--cor-bege);
+}
+
+.secao-rosa {
+  background-color: var(--cor-rosa-suave);
+}
+
+/* Skip link para acessibilidade por teclado */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 9999;
+  background-color: var(--cor-rosa-escuro);
+  color: var(--cor-branco);
+  padding: 12px 20px;
+  border-radius: var(--raio-pill);
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: var(--sombra);
+}
+
+.skip-link:focus {
+  top: 12px;
+}
+
+/* Botões base */
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 12px 26px;
+  border-radius: var(--raio-pill);
+  font-family: var(--fonte-texto);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 400px) {
+  .botao {
+    white-space: normal;
+    text-align: center;
+    padding: 12px 20px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .botao {
+    transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+  }
+  .botao:hover {
+    transform: translateY(-1px);
+  }
+}
+
+.botao-primario {
+  background-color: var(--cor-rosa-escuro);
+  color: var(--cor-branco);
+  box-shadow: var(--sombra);
+}
+
+.botao-primario:hover {
+  background-color: var(--cor-rosa-escuro-hover);
+}
+
+.botao-secundario {
+  background-color: var(--cor-branco);
+  color: var(--cor-texto);
+  border-color: var(--cor-rosa-escuro);
+}
+
+.botao-secundario:hover {
+  background-color: var(--cor-rosa-suave);
+}
+
+.botao-whatsapp {
+  background-color: var(--cor-whatsapp);
+  color: var(--cor-branco);
+  box-shadow: var(--sombra);
+}
+
+.botao-whatsapp:hover {
+  background-color: var(--cor-whatsapp-hover);
+}
+
+/* Acordeão FAQ com <details>/<summary> nativo */
+.faq-item {
+  background-color: var(--cor-branco);
+  border: 1.5px solid var(--cor-bege-escuro);
+  border-radius: var(--raio-md);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+
+.faq-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+  cursor: pointer;
+  font-family: var(--fonte-titulo);
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  min-height: 56px;
+}
+
+.faq-summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-icone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--cor-bege);
+  color: var(--cor-salvia-escuro);
+  flex-shrink: 0;
+  font-family: var(--fonte-texto);
+  font-weight: 700;
+}
+
+.faq-item[open] .faq-icone-mais {
+  display: none;
+}
+
+.faq-item:not([open]) .faq-icone-menos {
+  display: none;
+}
+
+/* Placeholder visualmente distinto (borda tracejada) */
+.placeholder-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background-color: #FFF9F2;
+  border: 2px dashed var(--cor-rosa-escuro);
+  border-radius: var(--raio-sm);
+  color: var(--cor-texto);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+/* Botão flutuante WhatsApp */
+.whatsapp-fab {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right, 16px));
+  bottom: max(16px, env(safe-area-inset-bottom, 16px));
+  z-index: 40;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--cor-whatsapp);
+  color: var(--cor-branco);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgb(27 122 67 / 0.32);
+  text-decoration: none;
+}
+
+.whatsapp-fab:hover {
+  background-color: var(--cor-whatsapp-hover);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .whatsapp-fab {
+    transition: opacity 180ms ease, transform 180ms ease, background-color 160ms ease;
+  }
+}
+
+.whatsapp-fab[data-oculto] {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+}

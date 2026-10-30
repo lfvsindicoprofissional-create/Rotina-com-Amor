@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" rx="28" fill="#F6DCDD" />
+  <rect x="80" y="80" width="640" height="440" rx="28" fill="#FFFDFB" stroke="#E6D8C6" stroke-width="4" />
+
+  <circle cx="260" cy="260" r="88" fill="#F5EDE3" />
+  <path d="M260 302C260 302 216 272 216 240C216 223 229 210 245 210C254 210 260 216 260 216C260 216 266 210 275 210C291 210 304 223 304 240C304 272 260 302 260 302Z" fill="#E8B4B8" stroke="#A8505C" stroke-width="3.5" />
+
+  <rect x="390" y="172" width="260" height="82" rx="18" fill="#F5EDE3" stroke="#9CAF88" stroke-width="2.5" />
+  <text x="520" y="220" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="20" font-weight="700">1. Escolher juntos</text>
+
+  <rect x="390" y="274" width="260" height="82" rx="18" fill="#F6DCDD" />
+  <text x="520" y="322" text-anchor="middle" fill="#3D3535" font-family="system-ui, sans-serif" font-size="20" font-weight="700">2. Visualizar o dia</text>
+
+  <text x="400" y="446" text-anchor="middle" fill="#5E7250" font-family="Georgia, serif" font-style="italic" font-size="24" font-weight="600">Participação e previsibilidade com acolhimento</text>
+</svg>

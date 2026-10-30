@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <rect width="800" height="600" rx="28" fill="#F5EDE3" />
+  <circle cx="660" cy="120" r="140" fill="#F6DCDD" opacity="0.65" />
+
+  <!-- Cartão 1 em destaque -->
+  <g transform="translate(110, 110) rotate(-3)">
+    <rect x="6" y="10" width="250" height="360" rx="26" fill="#3D3535" opacity="0.08" />
+    <rect width="250" height="360" rx="26" fill="#FFFDFB" stroke="#9CAF88" stroke-width="4" />
+    <circle cx="125" cy="135" r="64" fill="#F5EDE3" />
+    <circle cx="125" cy="135" r="30" fill="#E8B4B8" />
+    <path d="M125 56V70M125 200V214M46 135H60M190 135H204" stroke="#A8505C" stroke-width="4" stroke-linecap="round" />
+    <text x="125" y="268" text-anchor="middle" fill="#3D3535" font-family="Georgia, serif" font-size="28" font-weight="700">Acordar</text>
+    <text x="125" y="304" text-anchor="middle" fill="#6B5F5F" font-family="system-ui, sans-serif" font-size="16">Cartão visual removível</text>
+  </g>
+
+  <!-- Cartão 2 em destaque -->
+  <g transform="translate(420, 130) rotate(3)">
+    <rect x="6" y="10" width="250" height="360" rx="26" fill="#3D3535" opacity="0.08" />
+    <rect width="250" height="360" rx="26" fill="#FFFDFB" stroke="#E8B4B8" stroke-width="4" />
+    <circle cx="125" cy="135" r="64" fill="#F6DCDD" />
+    <path d="M125 88L138 116L168 120L146 141L152 171L125 156L98 171L104 141L82 120L112 116L125 88Z" stroke="#A8505C" stroke-width="3.5" stroke-linejoin="round" />
+    <text x="125" y="268" text-anchor="middle" fill="#3D3535" font-family="Georgia, serif" font-size="28" font-weight="700">Brincar</text>
+    <text x="125" y="304" text-anchor="middle" fill="#6B5F5F" font-family="system-ui, sans-serif" font-size="16">Ilustração clara e acolhedora</text>
+  </g>
+</svg>
